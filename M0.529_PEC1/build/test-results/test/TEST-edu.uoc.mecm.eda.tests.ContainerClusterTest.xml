@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.uoc.mecm.eda.tests.ContainerClusterTest" tests="6" skipped="0" failures="6" errors="0" timestamp="2022-10-11T13:07:07" hostname="MBP-16-M1-Max-WiFi" time="0.115">
+  <properties/>
+  <testcase name="Container tests" classname="edu.uoc.mecm.eda.tests.ContainerClusterTest" time="0.012">
+    <failure message="Condition not satisfied:&#10;&#10;c1ID == &quot;0&quot;&#10;|    |&#10;null false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+c1ID == &quot;0&quot;
+|    |
+null false
+
+	at edu.uoc.mecm.eda.tests.ContainerClusterTest.Container tests(ContainerClusterTest.groovy:91)
+</failure>
+  </testcase>
+  <testcase name="Services tests" classname="edu.uoc.mecm.eda.tests.ContainerClusterTest" time="0.055">
+    <failure message="Condition not satisfied:&#10;&#10;serviceID1 == &quot;10&quot;&#10;|          |&#10;null       false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+serviceID1 == &quot;10&quot;
+|          |
+null       false
+
+	at edu.uoc.mecm.eda.tests.ContainerClusterTest.Services tests(ContainerClusterTest.groovy:127)
+</failure>
+  </testcase>
+  <testcase name="Service method setContainers() returns exception" classname="edu.uoc.mecm.eda.tests.ContainerClusterTest" time="0.003">
+    <failure message="Expected exception of type 'edu.uoc.mecm.eda.pac1.exercise3.ContainerIPAlreadyBoundException', but no exception was thrown" type="org.spockframework.runtime.WrongExceptionThrownError">Expected exception of type 'edu.uoc.mecm.eda.pac1.exercise3.ContainerIPAlreadyBoundException', but no exception was thrown
+	at org.spockframework.lang.SpecInternals.checkExceptionThrown(SpecInternals.java:80)
+	at org.spockframework.lang.SpecInternals.thrownImpl(SpecInternals.java:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at edu.uoc.mecm.eda.tests.ContainerClusterTest.Service method setContainers() returns exception(ContainerClusterTest.groovy:148)
+</failure>
+  </testcase>
+  <testcase name="Service constructor returns exception" classname="edu.uoc.mecm.eda.tests.ContainerClusterTest" time="0.003">
+    <failure message="Expected exception of type 'edu.uoc.mecm.eda.pac1.exercise3.ContainerIPAlreadyBoundException', but no exception was thrown" type="org.spockframework.runtime.WrongExceptionThrownError">Expected exception of type 'edu.uoc.mecm.eda.pac1.exercise3.ContainerIPAlreadyBoundException', but no exception was thrown
+	at org.spockframework.lang.SpecInternals.checkExceptionThrown(SpecInternals.java:80)
+	at org.spockframework.lang.SpecInternals.thrownImpl(SpecInternals.java:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at edu.uoc.mecm.eda.tests.ContainerClusterTest.Service constructor returns exception(ContainerClusterTest.groovy:160)
+</failure>
+  </testcase>
+  <testcase name="Cluster tests" classname="edu.uoc.mecm.eda.tests.ContainerClusterTest" time="0.038">
+    <failure message="Condition not satisfied:&#10;&#10;tsize1 == 2&#10;|      |&#10;-1     false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+tsize1 == 2
+|      |
+-1     false
+
+	at edu.uoc.mecm.eda.tests.ContainerClusterTest.Cluster tests(ContainerClusterTest.groovy:202)
+</failure>
+  </testcase>
+  <testcase name="Cluster methods return exception" classname="edu.uoc.mecm.eda.tests.ContainerClusterTest" time="0.003">
+    <failure message="Expected exception of type 'java.util.NoSuchElementException', but no exception was thrown" type="org.spockframework.runtime.WrongExceptionThrownError">Expected exception of type 'java.util.NoSuchElementException', but no exception was thrown
+	at org.spockframework.lang.SpecInternals.checkExceptionThrown(SpecInternals.java:80)
+	at org.spockframework.lang.SpecInternals.thrownImpl(SpecInternals.java:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at edu.uoc.mecm.eda.tests.ContainerClusterTest.Cluster methods return exception(ContainerClusterTest.groovy:225)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
