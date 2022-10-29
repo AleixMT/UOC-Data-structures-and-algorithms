@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"edu.uoc.mecm.eda.welcome","l":"HelloWorld"},{"p":"edu.uoc.mecm.eda.warmup","l":"MathUtils"}]

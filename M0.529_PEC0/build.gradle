@@ -1,0 +1,26 @@
+plugins {
+    id 'groovy'
+    id 'java'
+}
+
+apply plugin: "groovy"
+
+group 'edu.uoc.mecm.eda'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // mandatory dependencies for using Spock
+    compile "org.codehaus.groovy:groovy-all:2.3.11"
+    testCompile "org.spockframework:spock-core:1.2-groovy-2.4"
+}
+
+task (runMain, dependsOn: 'classes', type: JavaExec) {
+    main = 'edu.uoc.mecm.eda.welcome.HelloWorld'
+    classpath = sourceSets.main.runtimeClasspath
+}

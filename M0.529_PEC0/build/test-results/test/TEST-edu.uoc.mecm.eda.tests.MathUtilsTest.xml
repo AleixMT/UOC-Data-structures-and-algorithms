@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.uoc.mecm.eda.tests.MathUtilsTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2022-10-29T18:20:04" hostname="aleixmt-VirtualBox" time="0.164">
+  <properties/>
+  <testcase name="sum[0]" classname="edu.uoc.mecm.eda.tests.MathUtilsTest" time="0.059"/>
+  <testcase name="sum[1]" classname="edu.uoc.mecm.eda.tests.MathUtilsTest" time="0.001"/>
+  <testcase name="sum[2]" classname="edu.uoc.mecm.eda.tests.MathUtilsTest" time="0.0"/>
+  <testcase name="arrayIsGreater[0]" classname="edu.uoc.mecm.eda.tests.MathUtilsTest" time="0.0"/>
+  <testcase name="arrayIsGreater[1]" classname="edu.uoc.mecm.eda.tests.MathUtilsTest" time="0.0"/>
+  <testcase name="arrayIsGreater[2]" classname="edu.uoc.mecm.eda.tests.MathUtilsTest" time="0.0"/>
+  <testcase name="arrayIsGreater[3]" classname="edu.uoc.mecm.eda.tests.MathUtilsTest" time="0.0"/>
+  <testcase name="arrayIsGreater[4]" classname="edu.uoc.mecm.eda.tests.MathUtilsTest" time="0.0"/>
+  <testcase name="dominates[0]" classname="edu.uoc.mecm.eda.tests.MathUtilsTest" time="0.0"/>
+  <testcase name="dominates[1]" classname="edu.uoc.mecm.eda.tests.MathUtilsTest" time="0.0"/>
+  <testcase name="dominates[2]" classname="edu.uoc.mecm.eda.tests.MathUtilsTest" time="0.0"/>
+  <testcase name="dominatesException[0]" classname="edu.uoc.mecm.eda.tests.MathUtilsTest" time="0.004"/>
+  <testcase name="dominatesException[1]" classname="edu.uoc.mecm.eda.tests.MathUtilsTest" time="0.0"/>
+  <testcase name="dominatesException[2]" classname="edu.uoc.mecm.eda.tests.MathUtilsTest" time="0.0"/>
+  <testcase name="dominatesException[3]" classname="edu.uoc.mecm.eda.tests.MathUtilsTest" time="0.0"/>
+  <testcase name="dominatesException[4]" classname="edu.uoc.mecm.eda.tests.MathUtilsTest" time="0.0"/>
+  <testcase name="copyArray" classname="edu.uoc.mecm.eda.tests.MathUtilsTest" time="0.01"/>
+  <testcase name="sumArrays[0]" classname="edu.uoc.mecm.eda.tests.MathUtilsTest" time="0.001"/>
+  <testcase name="sumArrays[1]" classname="edu.uoc.mecm.eda.tests.MathUtilsTest" time="0.0"/>
+  <testcase name="sumArraysException[0]" classname="edu.uoc.mecm.eda.tests.MathUtilsTest" time="0.003"/>
+  <testcase name="sumArraysException[1]" classname="edu.uoc.mecm.eda.tests.MathUtilsTest" time="0.001"/>
+  <testcase name="sumArraysException[2]" classname="edu.uoc.mecm.eda.tests.MathUtilsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
