@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"edu.uoc.mecm.eda.pac1.exercise2"},{"l":"edu.uoc.mecm.eda.pac1.exercise3"},{"l":"edu.uoc.mecm.eda.pac1.exercise4"},{"l":"edu.uoc.mecm.eda.pac1.exercise5"}]
