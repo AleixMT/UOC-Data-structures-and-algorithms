@@ -1,4 +1,0 @@
-20
-4	0	1	c	i	i	c	i	i	i
-8	1	1	c	c	c	i	i	i	c	c	c	c	i	i	c	c
-10	3	1	c	i	i	c	c	i	
