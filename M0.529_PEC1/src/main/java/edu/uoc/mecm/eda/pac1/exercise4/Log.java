@@ -45,18 +45,41 @@ public class Log<E> {
     private int capacity = 0;
 
     /**
-     * Log constructor
+     * Log constructor. Explicit.
+     *
      * @param capacity Log's maximum capacity
      */
     public Log (int capacity) {
+        this.capacity = capacity;
+        this.tail = null;
+        this.head = null;
+        this.size = 0;
     }
 
     /**
-     * Add an element to the log
+     * Adds an element to the log.
+     *
      * @param element Element to add
      * @throws CapacityException If capacity exceeded
      */
     public void add (E element) throws CapacityException {
+        if (this.capacity == this.size)
+        {
+            throw new CapacityException("Buffer Overflow");
+        }
+
+        if (this.size == 0)
+        {
+            this.head = new Node(element);
+            this.head.next = null;
+            this.tail = this.head;
+        }
+        else
+        {
+            this.tail.next = new Node(element);
+            this.tail = this.tail.next;
+        }
+        this.size++;
     }
 
     /**
@@ -65,7 +88,15 @@ public class Log<E> {
      * @throws CapacityException If log is empty
      */
     public E get() throws CapacityException {
-        return null;
+        if (this.size == 0)
+        {
+            throw new CapacityException("Empty Buffer");
+        }
+
+        E ret = this.head.data;
+        this.head = this.head.next;
+        this.size--;
+        return ret;
     }
 
     /**
@@ -74,7 +105,12 @@ public class Log<E> {
      * @throws CapacityException If log is empty
      */
     public E peek() throws CapacityException {
-        return null;
+        if (this.size == 0)
+        {
+            throw new CapacityException("Empty Buffer");
+        }
+
+        return this.head.data;
     }
 
     /**
@@ -82,7 +118,7 @@ public class Log<E> {
      * @return True if empty
      */
     public boolean isEmpty() {
-        return false;
+        return this.size == 0;
     }
 
     /**
@@ -90,12 +126,15 @@ public class Log<E> {
      * @return Log size
      */
     public int size() {
-        return -1;
+        return this.size;
     }
 
     /**
      * Clear the log
      */
     public void clear() {
+        this.head = null;
+        this.tail = null;
+        this.size = 0;
     }
 }

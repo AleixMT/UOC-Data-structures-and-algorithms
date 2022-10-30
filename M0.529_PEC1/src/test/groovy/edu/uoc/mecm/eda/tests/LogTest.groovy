@@ -54,6 +54,7 @@ class LogTest extends Specification {
                     // l2.persistToDisk()
                     l2Full = l2.size()
                     l2.clear()
+                    l2.add(logEntries[i]);
                 }
             }
 
