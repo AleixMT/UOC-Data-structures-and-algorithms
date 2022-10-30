@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="edu.uoc.mecm.eda.tests.TextEditorBufferTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-10-30T12:40:06" hostname="aleixmt-VirtualBox" time="0.095">
-  <properties/>
-  <testcase name="test text editor buffer implementation" classname="edu.uoc.mecm.eda.tests.TextEditorBufferTest" time="0.088"/>
-  <testcase name="test exception on delete" classname="edu.uoc.mecm.eda.tests.TextEditorBufferTest" time="0.005"/>
-  <testcase name="test exception on get" classname="edu.uoc.mecm.eda.tests.TextEditorBufferTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

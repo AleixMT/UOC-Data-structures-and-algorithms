@@ -36,7 +36,8 @@ public class Container {
     private InetAddress ipAddress;
 
     /**
-     * Constructor for the Container ADT
+     * Constructor for the Container ADT.
+     *
      * @param containerID The container's ID
      * @param name The container's name
      * @param owner The container's owner
@@ -44,6 +45,11 @@ public class Container {
      * @param ipAddress The container's internal IP Address
      */
     public Container (String containerID, String name, String owner, Date initDate, InetAddress ipAddress) {
+        this.containerID = containerID;
+        this.name = name;
+        this.owner = owner;
+        this.initDate = initDate;
+        this.ipAddress = ipAddress;
     }
 
     /**
@@ -51,7 +57,7 @@ public class Container {
      * @return The container's ID
      */
     public String getID() {
-        return null;
+        return this.containerID;
     }
 
     /**
@@ -59,6 +65,7 @@ public class Container {
      * @param containerID The container's ID to be set
      */
     public void setID (String containerID) {
+        this.containerID = containerID;
     }
 
     /**
@@ -66,7 +73,7 @@ public class Container {
      * @return The container's name
      */
     public String getName() {
-        return null;
+        return this.name;
     }
 
     /**
@@ -74,6 +81,7 @@ public class Container {
      * @param name The container's name to be set
      */
     public void setName (String name) {
+        this.name = name;
     }
 
     /**
@@ -81,7 +89,7 @@ public class Container {
      * @return The container's owner
      */
     public String getOwner() {
-        return null;
+        return this.owner;
     }
 
     /**
@@ -89,6 +97,7 @@ public class Container {
      * @param owner The container's owner to be set
      */
     public void setOwner (String owner) {
+        this.owner = owner;
     }
 
     /**
@@ -96,7 +105,7 @@ public class Container {
      * @return The container's init date
      */
     public Date getInitDate() {
-        return null;
+        return this.initDate;
     }
 
     /**
@@ -104,6 +113,7 @@ public class Container {
      * @param initDate The container's init date
      */
     public void setInitDate (Date initDate) {
+        this.initDate = initDate;
     }
 
     /**
@@ -111,13 +121,16 @@ public class Container {
      * @return The container's internal IP Address
      */
     public InetAddress getIPAddress() {
-        return null;
+        return this.ipAddress;
     }
 
     /**
-     * Set the container's internal IP Address
+     * Set the container's internal IP Address. Note that this method does not have the responsibility of checking if
+     * another container has the same IP address.
+     *
      * @param ipAddress The container's internal IP Address
      */
     public void setIPAddress (InetAddress ipAddress) {
+        this.ipAddress = ipAddress;
     }
 }
